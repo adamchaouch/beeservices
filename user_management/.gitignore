@@ -1,0 +1,36 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Virtual environment
+venv/
+.env/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Pytest
+.cache/
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+
+# Database files
+*.sqlite3
+db_data/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Alembic migrations
+#app/db/alembic/versions/*.pyc
+#app/db/alembic/versions/__pycache__/
